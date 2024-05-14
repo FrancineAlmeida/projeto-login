@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(120deg, #03A1FD, #FDE303, #FD0303);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caixa {
+    border-radius: 25px;
+    background-color: #ffff;
+    padding: 10px;
+    width: max-content;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #FDE303;
+    text-align: center;
+}
+
+.formulario {
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    outline: none;
+    border: solid 1px;
+}
+
+.botao {
+    border-radius: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(120deg, #03A1FD, #FDE303, #FD0303);
+    height: 30px;
+    border: none;
+    outline: none;
+
+}
+
+@media (max-width:400px) {
+
+    .principal {
+        font-family: "Open Sans", sans-serif;
+        background: linear-gradient(120deg, #03A1FD, #FDE303, #FD0303);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .caixa {
+        border-radius: 25px;
+        background-color: #ffff;
+        padding: 10px;
+        
+    }
+    
+    .titulo {
+        font-size: 30px;
+        color: #FDE303;
+        text-align: center;
+    }
+    
+    .formulario {
+        border: none;
+        outline: none;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input {
+        border-radius: 25px;
+        padding: 2px;
+        margin: 5px;
+        outline: none;
+        border: solid 1px;
+    }
+    
+    .botao {
+        border-radius: 25px;
+        margin-top: 5px;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(120deg, #03A1FD, #FDE303, #FD0303);
+        height: 30px;
+        border: none;
+        outline: none;
+    }
+
+}
